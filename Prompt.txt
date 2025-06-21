@@ -1,0 +1,81 @@
+Generate a complete Python script for a 2D Aircraft Flying Game using the Pygame library. The game should include the following features:
+
+1. Game Window:
+Create a game window of size 800x600 pixels, with a sky-themed background.
+
+Set a title for the window, such as “Aircraft Adventure” or “Sky Fighter”.
+
+2. Player Aircraft:
+Display a player-controlled aircraft at the bottom center of the screen.
+
+The aircraft should be controllable using arrow keys or WASD:
+
+Move left and right across the screen.
+
+Optional: allow limited vertical movement.
+
+The aircraft should not move outside the screen boundaries.
+
+3. Input Handling:
+Detect keyboard input to control the aircraft and fire bullets.
+
+Pressing the Spacebar should fire bullets upward from the aircraft’s position.
+
+4. Bullets:
+Each bullet should travel upward once fired.
+
+If a bullet collides with an enemy, both should be removed.
+
+Optionally, add a shooting sound or visual effect.
+
+5. Enemy Aircraft/Obstacles:
+Spawn enemies at random horizontal positions at the top of the screen.
+
+Enemies should move downward toward the player aircraft.
+
+Spawn new enemies at regular intervals.
+
+If an enemy collides with the player aircraft, end the game.
+
+6. Score System:
+Track and display the player’s score at the top-left or top-center of the screen.
+
+Increase score when enemies are destroyed.
+
+Optionally display a high score.
+
+7. Game Over Condition:
+Detect when the player’s aircraft collides with an enemy.
+
+Display a message like “Game Over! Final Score: X”.
+
+Prevent further gameplay input until reset.
+
+8. Reset Option:
+After game over, allow players to restart the game by:
+
+Pressing a key (e.g., ‘R’ for reset), or
+
+Clicking a “Play Again” button (optional).
+
+Reset all game variables and state to initial values.
+
+9. Basic Graphics:
+Use simple shapes or sprites for the aircraft, bullets, and enemies.
+
+Distinguish player and enemy elements using different colors.
+
+Use a clean font for score and game messages.
+
+10. Game Loop:
+Implement a standard Pygame loop to:
+
+Process user input
+
+Update game objects
+
+Check for collisions
+
+Draw all elements to the screen
+
+Maintain consistent FPS (e.g., 60 frames per second)
